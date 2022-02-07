@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ToggleButton = ({toggle, setToggle, children}) => {
-  return <button onClick={() => setTogle(!toggle)}>{children}</button>;
+  return <button onClick={() => setToggle(!toggle)}>{children}</button>;
 }
 
-export default toggleButton;
+export default ToggleButton;
