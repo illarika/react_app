@@ -1,10 +1,12 @@
 import React, {useState} from 'react';
+import button from './MyButton.css'
+import Counter from '../Counter';
 
 
 const MyButton = ({children, changeText})=> {
 
 
-  return <button onClick={() => changeText('Thanks you!')}>{children}</button>
+  return <button  className= {"button"} onClick={() => changeText('Thanks you!')}>{children}</button>
 
 
 
