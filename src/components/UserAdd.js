@@ -1,6 +1,7 @@
 import React from 'react';
 import {useState} from "react";
 
+<<<<<<< HEAD
 const UserAdd = ({users, setUsers}) => {
 
     const onChange = (e) => {
@@ -60,5 +61,38 @@ const UserAdd = ({users, setUsers}) => {
     )
 }
 
+=======
+const UserAdd = () => {
+    const [user, setUser] = useState({});
+    const onChange = (e) => {
+        const field = e.target.id;
+        setUser( {...user,[field]: e.target.value})
+    };
+    console.log(user);
+   
+    const values = {
+        name: 'text',
+        age: 'number',
+        country: 'text',
+    };
+
+    return (
+        <>
+            {Object.keys(values).map((value, index) =>
+                <input
+                    id={value}
+                    key={index}
+                    type={values[value]}
+                    placeholder={`Input user ${value}`}
+                    onChange={onChange}
+                />
+                )}
+            <button>Add new User</button>
+            
+      
+        </>
+    );
+};
+>>>>>>> 80f3774f37c5cacff4a579fa93f48c07da815af5
 
 export default UserAdd;

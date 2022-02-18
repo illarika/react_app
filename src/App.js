@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import NavBar from './components/NavBar';
@@ -7,6 +8,11 @@ import React from 'react'
 
 
 
+=======
+import UserAdd from "./components/UserAdd";
+import UserList from "./components/UserList";
+import { users } from "./users";
+>>>>>>> 80f3774f37c5cacff4a579fa93f48c07da815af5
 const App= () =>{
   // const [buttonText, setButtonText] = useState('Click me please!');
   // const changeText = (text) =>{
@@ -14,6 +20,7 @@ const App= () =>{
   // }
   // const [toggle, setToggle] = useState(false);
   
+<<<<<<< HEAD
   
   return (
      <div className="App">
@@ -26,6 +33,14 @@ const App= () =>{
       {/* <UserList users= {users}/>
       <UserAdd /> */}
     
+=======
+  console.log(users)
+  
+  return (
+    <div className="App">
+      <UserList users= {users}/>
+      <UserAdd/>
+>>>>>>> 80f3774f37c5cacff4a579fa93f48c07da815af5
 
 
 
