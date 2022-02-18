@@ -16,10 +16,10 @@ const NavBar= ()=>{
           <Link to="/users" class="nav-link active" aria-current="page" href="#">Users</Link>
         </li>
         <li class="nav-item">
-          <Link to="/counter" class="nav-link" href="#">Posts</Link>
+          <Link to="/counter" class="nav-link" href="#">Counter</Link>
         </li>
         <li class="nav-item">
-          <Link to="/" class="nav-link" href="#">Devices</Link>
+          <Link to="/posts" class="nav-link" href="#">Posts</Link>
         </li>
         <li class="nav-item">
           <a class="nav-link disabled">Disabled</a>
