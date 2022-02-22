@@ -3,7 +3,6 @@ import React from 'react'
 
 const UserList = ({users}) =>{
     
-<<<<<<< HEAD
   return (
         <table className='table'>
           <thead>
@@ -19,16 +18,6 @@ const UserList = ({users}) =>{
         </tbody>
           )}
         </table>
-=======
-  return users.map((user, index) =>
-        <div key = {index}>
-        <div>Name: {user.name}</div>
-        <div>Age: {user.age}</div>
-        <div>Country: {user.country}</div>
-        </div>
-     
-
->>>>>>> 80f3774f37c5cacff4a579fa93f48c07da815af5
   );
   };
 
