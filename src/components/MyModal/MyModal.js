@@ -44,7 +44,7 @@ const MyModal = ({
                      class="btn btn-primary"
                      onClick={onConfirm}
                   >
-                     Save changes
+                     Ок
                   </button>}
                </div>
             </div>
